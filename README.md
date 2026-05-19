@@ -25,15 +25,15 @@ The verification environment was developed with a modular and reusable architect
 * QuestaSim
 
 ## Project Structure
-* apb_driver.sv → Drives APB transactions to DUT
-* apb_mon.sv → Monitors bus activity
-* apb_sbd.sv → Scoreboard for data comparison
-* apb_cov.sv → Functional coverage collection
-* apb_agent.sv → APB agent containing sequencer, driver, monitor
-* apb_env.sv → Top-level verification environment
-* apb_seq_lib.sv → Test sequences
-* apb_slave.v → APB slave DUT
-* top.sv → Top-level testbench
+* apb_driver.sv --> Drives APB transactions to DUT
+* apb_mon.sv --> Monitors bus activity
+* apb_sbd.sv --> Scoreboard for data comparison
+* apb_cov.sv --> Functional coverage collection
+* apb_agent.sv --> APB agent containing sequencer, driver
+* apb_env.sv --> Contains the agents
+* apb_seq_lib.sv --> Test sequences
+* apb_slave.v --> APB slave DUT
+* top.sv --> Top-level testbench
 
 ## What I Learned
 * Basics of AMBA APB protocol
