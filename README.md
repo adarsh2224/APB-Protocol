@@ -2,7 +2,7 @@
 
 This project focuses on verifying the APB (Advanced Peripheral Bus) protocol using UVM.
 
-In this Project Slave acts as DUT and Driver acts as Master.
+In this Project DUT acts as slave and Driver acts as Master.
 
 The verification environment was developed with a modular and reusable architecture, making it easier to extend and debug.The project includes APB read/write transaction verification along with functional coverage and scoreboard-based checking.
 
